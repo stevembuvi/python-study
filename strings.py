@@ -9,7 +9,7 @@ num2="200"
 
 total=num1+num2
 print(total)
-#when we add swtrings they contcat(join together) instead of summing up
+#when we add strings they contcat(join together) instead of summing up
 
 #indexing and slicing
 #indexing used to when accessing characters in a string
