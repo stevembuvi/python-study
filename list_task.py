@@ -3,7 +3,7 @@
 
 
 trainees=["John",[2,["James","Mary"]]]
-print(len(trainees))
+
 #display 2 from the list
 print(trainees[1][0])
 
@@ -24,3 +24,5 @@ trainees.remove("John")
 print(trainees)
 trainees[0][1].remove('Mary')
 print(trainees)
+#Using a function, determine the length of the list
+print(len(trainees))
