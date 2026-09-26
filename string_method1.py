@@ -68,7 +68,13 @@ print(sentence5.find('t'))
 sentence6 = "Python programming"
 print(sentence6.count('o'))
 
-# Split sentence 8 using the colon
+# Split sentence 7 using the colon
 sentence7 = "Alex:Brian:mike:kevin"
 sentence8=sentence7.split(":")
 print(sentence8)
+
+# change sentence9 to Alex Mwangi
+sentence9 = "Alex Kimani"
+sentence9 = sentence9.replace("Kimani","Mwangi")
+print(sentence9)
+
