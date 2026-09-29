@@ -25,7 +25,7 @@ else:
 
 x=11
 y=30
-if 10<=x<=20 and y>100:
+if 10>=10 and x<=20 and y>100:
     print('Conditions Met')
 else:
     print('Conditions not met')
@@ -41,7 +41,9 @@ else:
 #If start_date comes before end_date, print "Valid period",
 #If start_date is after end_date, print "Invalid period".
 #If both dates are the same, print "One-day period".
-if start_date < end_date:
+start_date = '2024-01-01'
+end_date = '2024-12-31'
+if start_date<end_date:
     print("Valid period")
 elif start_date > end_date:
     print("Invalid period")
