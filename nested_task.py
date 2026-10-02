@@ -9,6 +9,18 @@ if student_score>90:
         print('Excellent student')
     else:
         print("Good score, but attendance needs improvement")
+else:
+    print("Poor Score")
+    #OR
+student_score=91
+attendance=81
+if student_score>90:
+    if attendance>80:
+        print('Excellent student')
+    else:
+        print("Good score, but attendance needs improvement")
+else:
+    print("Poor Score")
     
 #Write a program that:
 #Takes a transaction amount and account type ("Standard" or "Premium") as input.
@@ -22,14 +34,14 @@ if student_score>90:
 #If not, print "Transaction approved."
 #Otherwise “Wrong account type”
 transaction_amount=input('Enter amount:')
-account_type=input("Enter account type(Standard or Premium):")
-
 transaction_amount=float(transaction_amount)
+account_type=input("Enter account type standard/premium):")
+
 if transaction_amount>500:
     if account_type=="Standard":
         print( "Transaction exceeds the limit for Standard accounts.")
-else:
-    print("Transaction approved")
+    else:
+        print("Transaction approved")
 if account_type=="Premium":
     if transaction_amount>1000:
         print("Transaction exceeds the limit for Premium accounts.")
@@ -50,7 +62,7 @@ if x%2==0:
     if y%2==0:
         print('x and y are both even')
     else:
-        print('Only y is even')
+        print('Only x is even')
 else:
     if y%2==0:
         print("only y is even")

@@ -48,6 +48,6 @@ else:
 
 
 #Task
-#Slide 56 number 5
-#slide 57
-#slide 59 number 5
+#Slide 56 Q 5
+#slide 57 all Qs
+#slide 59 Q 5
